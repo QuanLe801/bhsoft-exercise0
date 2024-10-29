@@ -1,0 +1,105 @@
+
+.banner{
+  margin-bottom: 8.188rem;
+}
+
+/* The dots/bullets/indicators */
+.slideshow-container{
+  padding-top: 16.438rem;
+  background-image: url('/images/banner-home1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 6.156rem;
+  margin-bottom: 3.875rem;
+}
+
+.dot {
+  cursor: pointer;
+  height: 0.193rem;
+  width: 0.926rem;
+  margin: 0 0.5rem;
+  background-color: #EEEEEE;
+  border-radius: 3.125rem;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  height: 0.509rem;
+  width: 1.582rem;
+  background-color: #414880;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.content-slider{
+  display: flex;
+  column-gap: 1.375rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.title{
+  font-size: 3rem;
+  font-weight: 600;
+  color: #091156;
+  margin: 0;
+}
+
+.description{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #091156;
+  letter-spacing: 0.1rem;
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+}
+
+.left-slider{
+  max-width: 29.625rem;
+}
+
+.right-slider{
+  width: 37.594rem;
+  height: 24.844rem;
+}
+
+@media (max-width:639px) {
+  .right-slider{
+    width: 18.594rem;
+    height: 11.844rem;
+  }
+  .content-slider{
+    flex-direction: column;
+   }
+   .title{
+    font-size: 1.5rem;
+   }
+   .description{
+    font-size: 0.75rem;
+  }
+  .slideshow-container{
+    padding-top: 5.438rem;
+    padding-bottom: 0;
+    margin-bottom: 1.875rem;
+  }
+  .left-slider{
+    max-width: auto;
+    text-align: center;
+  }
+  .btn-more{
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+  }
+}

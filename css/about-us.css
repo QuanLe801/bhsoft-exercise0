@@ -1,0 +1,76 @@
+.main-services-and-abouts-us-wrapper{
+  background-image: url('/images/bg-about-us.png');
+  background-repeat: no-repeat;
+  background-position: right 30.625rem;
+  background-size: contain;
+}
+
+.about-us-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  column-gap: 9rem;
+  padding-bottom: 8.888rem;
+}
+
+.about-us-tag{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #FF64AE;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.about-us-title{
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #091156; margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.about-us-description{
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'poppins-400';
+  color: #8B8B8B;
+  width: 100%;
+  max-width: 30.188rem;
+  letter-spacing: 0.1rem;
+}
+
+.about-us-footer{
+  display: flex;align-items: center;
+  column-gap: 2.75rem;
+}
+
+.watch-video{
+  display: flex; 
+  align-items: center;
+  column-gap: 0.813rem;
+}
+
+.watch-video span{
+  font-size: 1rem;
+  font-weight: 600;
+  color:#8B8B8B;
+}
+
+.img-about-us{
+  width: 29.75rem;
+  height: 21.875rem;
+}
+
+.play-icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  background-color: #091156;
+}
+
+.play-icon{
+  width:1.276rem;
+  height:1.276rem
+}

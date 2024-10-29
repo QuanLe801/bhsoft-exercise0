@@ -8,22 +8,28 @@
   <title>BHSoft - Excersice 0</title>
   <meta name="description" content="High-performance HTML based website template." />
   <link rel="stylesheet" href="global.css">
-  <script src="javascript.js"></script>
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/banner.css">
+  <link rel="stylesheet" href="/css/main-services.css">
+  <link rel="stylesheet" href="/css/about-us.css">
+  <script src="/js/banner.js"></script>
+  <script src="/js//header.js"></script>
 </head>
 
 <body>
-  <header class="header">
-    <image src="/images/logo-light.svg" width="258" height="63" class="logo"/>
+  <!-- header -->
+  <header class="header container">
+    <image src="/images/logo-light.svg" width="258" height="63" class="logo" />
     <section class="nav">
       <p class="nav-title">Home +</p>
       <p class="nav-title">About</p>
       <p class="nav-title">Service</p>
       <p class="nav-title">Gallery</p>
       <p class="nav-title">Blog</p>
-      <p class="nav-title">Contact</p>
+      <p class="nav-title beautice-btn">Contact</p>
     </section>
     <div id="main">
-      <button class="openbtn" onclick="openNav()">☰</button>  
+      <button class="openbtn" onclick="openNav()">☰</button>
     </div>
     <section id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -33,6 +39,138 @@
       <a href="#">Contact</a>
     </section>
   </header>
+
+  <!-- banner -->
+  <section class="banner">
+    <div class="slideshow-container container">
+      <div class="fade slider">
+        <div class="content-slider">
+          <div class="left-slider">
+            <p class="title">Clinic & beauty
+              consultant</p>
+            <p class="description">It is a long established fact that a reader will be
+              by the readable content of a page.</p>
+            <p class="beautice-btn btn-more">
+              More Details
+            </p>
+          </div>
+          <img src="/images/banner-slide.png" class="right-slider">
+        </div>
+      </div>
+      <div class="fade slider">
+        <div class="content-slider">
+          <div class="left-slider">
+            <p class="title">Clinic & beauty
+              consultant</p>
+            <p class="description">It is a long established fact that a reader will be
+              by the readable content of a page.</p>
+            <p class="beautice-btn btn-more">
+              More Details
+            </p>
+          </div>
+          <img src="/images/banner-slide.png" class="right-slider">
+        </div>
+      </div>
+
+      <div class="fade slider">
+        <div class="content-slider">
+          <div class="left-slider">
+            <p class="title">Clinic & beauty
+              consultant</p>
+            <p class="description">It is a long established fact that a reader will be
+              by the readable content of a page.</p>
+            <p class="beautice-btn btn-more">
+              More Details
+            </p>
+          </div>
+          <img src="/images/banner-slide.png" class="right-slider">
+        </div>
+      </div>
+    </div>
+    <br>
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
+
+
+
+  <div class="main-services-and-abouts-us-wrapper">
+    <!-- block main service -->
+    <section class="container main_service_wrapper">
+      <div class="header-main-service">
+        <p class="title-main-service">
+          Main Services
+        </p>
+        <p class="subTitle-main-service">Learn services to focus <br />
+          on your beauty</p>
+        <p class="description-main-service">Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa. Non
+          parturient <br /> amet, feugiat tellus
+          sagittis, scelerisque eget nulla turpis.</p>
+      </div>
+
+      <div class="list-card-main-services-wrapper">
+        <div class="card-main-services-wrapper">
+          <img src="/images/beauty_consultation.png" width="166" height="166" class="img_card_main_services" />
+          <div>
+            <p class="card_main_services_title">Beauty consultation</p>
+            <p class="card_main_services_description">Non parturient amet, feugiat tellus sagittis, scelerisque eget
+              nulla
+              turpis.</p>
+
+          </div>
+        </div>
+        <div class="card-main-services-wrapper">
+          <img src="/images/kkin_treatments.png" width="166" height="166" class="img_card_main_services" />
+          <div>
+            <p class="card_main_services_title">Skin treatments</p>
+            <p class="card_main_services_description">Non parturient amet, feugiat tellus sagittis, scelerisque eget
+              nulla
+              turpis.</p>
+
+          </div>
+        </div>
+        <div class="card-main-services-wrapper">
+          <img src="/images/beauty_product.png" width="166" height="166" class="img_card_main_services" />
+          <div>
+            <p class="card_main_services_title">Beauty product</p>
+            <p class="card_main_services_description">Non parturient amet, feugiat tellus sagittis, scelerisque eget
+              nulla
+              turpis.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us -->
+    <section class="about-us-wrapper container">
+      <div class="left-content-about-us">
+        <p class="about-us-tag">About Us</p>
+        <p class="about-us-title">We are the best beauty clinic</p>
+        <p class="about-us-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, quam suscipit
+          purus donec amet. Egestas
+          volutpat facilisi eu libero. Nunc, ipsum ornare mauris sit quam quis enim. Varius tellus in suspendisse
+          placerat. </p>
+        <p class="about-us-description">Id dui erat sed quam tellus in purus. Pellentesque congue fringilla cras tellus
+          enim.</p>
+        <div class="about-us-footer">
+          <p class="beautice-btn">Learn More</p>
+          <div class="watch-video"><div class="play-icon-wrapper">
+            <img src="/images/play-icon.svg" width="20.42" height="20.42" class="play-icon"/>
+          </div> <span>Watch Video</span>
+        </div>
+        </div>
+      </div>
+      <div class="right-content-about-us">
+        <img src="/images/about-us-img.png" width="476" height="350" class="img-about-us" />
+      </div>
+    </section>
+  </div>
+
+
 </body>
 
 </html>
