@@ -99,7 +99,11 @@
   }
   .btn-more{
     margin: 0 auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
     font-size: 0.75rem;
   }
+  .banner{
+    margin-bottom: 4rem;
+  }
+  
 }

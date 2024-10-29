@@ -38,6 +38,29 @@ body {
   cursor: pointer;
 }
 
+textarea{
+  resize: none;
+}
+
+input,textarea {
+  padding: 1rem 1.5rem;
+  border-radius: 0.9rem;
+  border: 1px solid #D9DDFE;
+}
+
+input::placeholder, textarea::placeholder {
+ font-family: 'poppins-400';
+ font-weight: 400;
+ font-size: 1rem;
+ letter-spacing: 0.1rem;
+ color:#C5C5C5;
+}
+
+input:focus-visible, textarea:focus-visible {
+  border: 1px solid #b5bcfd;
+  outline: none;
+ }
+
 @media screen and (max-width:639px) {
  .container{
   padding:0 0.25rem;
@@ -45,4 +68,13 @@ body {
  .beautice-btn{
   padding: 0.475rem 1rem;
  }
+ input::placeholder, textarea::placeholder {
+  font-size: 0.625rem;
+ }
+
+ input,textarea {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #D9DDFE;
+}
 }

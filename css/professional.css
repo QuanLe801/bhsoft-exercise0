@@ -1,0 +1,135 @@
+.list-card-professional-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 79.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-professional-wrapper {
+  cursor: pointer;
+  text-align: center;
+  max-width: 26.5rem;
+  width: 100%;
+  padding: 5.688rem 4.813rem;
+  transition: all 0.5s;
+  border-radius: 2.625rem;
+}
+
+.card-professional-wrapper:hover {
+  box-shadow: 0px 25px 50px 25px #F6F7FF;
+
+}
+
+.card_professional_position {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #FF64AE;
+  margin-top: 3.313rem;
+  margin-bottom: 0.9rem;
+}
+
+.card_professional_title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #091156;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.card_professional_description {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #8B8B8B;
+  font-family: 'poppins-400';
+  margin-top: 0;
+  margin-bottom: 3.125rem;
+  letter-spacing: 0.1rem;
+}
+
+.professional-wrapper {
+  padding-bottom: 9rem;
+}
+
+.card_professional_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.125rem;
+}
+
+.card_professional_contact_icon_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.125rem;
+  height: 3.125rem;
+  box-shadow: -2px 6px 16px -1px #E6E9FD;
+  border-radius: 50%;
+}
+
+.card_professional_contact_icon {
+  width: 1.563rem;
+  height: 1.563rem;
+}
+
+.img_card_professional {
+  width: 9.125rem;
+  height: 9.125rem;
+}
+
+@media (max-width:639px) {
+  .list-card-professional-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .card-professional-wrapper {
+    padding: 0.5rem 0.5rem;
+    max-width: 45%;
+    border-radius: 1rem;
+  }
+
+  .img_card_professional {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .card_professional_position {
+    font-size: 0.65rem;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .card_professional_title {
+    font-size: 0.825rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .card_professional_description {
+    font-size: 0.55rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .card_professional_contact {
+    gap: 0.625rem;
+  }
+
+  .card_professional_contact_icon_wrapper {
+
+    width: 1.5rem;
+    height: 1.5rem;
+    box-shadow: -2px 6px 16px -1px #E6E9FD;
+    border-radius: 50%;
+  }
+
+  .card_professional_contact_icon {
+    width: 0.875rem;
+    height: 0.875rem;
+  }
+
+  .professional-wrapper {
+    padding-bottom: 4rem;
+  }
+}
