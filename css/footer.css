@@ -13,6 +13,8 @@
 
 .logo-dark {
   width: 16.125rem;
+  height: 3.938rem;
+  margin-bottom: 2.063rem;
 }
 
 .footer-wrapper {
@@ -22,7 +24,8 @@
   justify-content: space-between;
   padding-top: 15.084rem;
   padding-bottom: 5.698rem;
-  gap: 8.063rem;
+  gap: 12.063rem;
+  align-items: center;
 }
 
 .footer-slogan {
@@ -32,6 +35,8 @@
   color: #D7DBFF;
   letter-spacing: 0.1rem;
   margin-left: 1.938rem;
+  margin-top: 0;
+  margin-bottom: 1.625rem;
 }
 
 .footer-info {
@@ -46,7 +51,7 @@
 .footer-menu {
   flex: 1;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
 }
 
 .footer-bg-bottom {
@@ -72,6 +77,8 @@
   color: #D7DBFF;
   font-family: 'poppins-400';
   font-weight: 400;
+  margin-bottom: 0.688rem;
+  letter-spacing: 0.1rem;
 }
 
 .footer-menu details>summary::marker {

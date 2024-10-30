@@ -17,6 +17,7 @@
   font-size: 2.25rem;
   font-weight: 600;
   color: #091156;
+  line-height: 2.813rem;
 }
 
 .description-main-service{
@@ -26,6 +27,7 @@
   font-family: 'poppins-400';
   font-weight: 400;
   color: #8B8B8B;
+  letter-spacing: 0.1rem;
 }
 
 .list-card-main-services-wrapper{
